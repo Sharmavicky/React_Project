@@ -1,123 +1,123 @@
-# Product List Application
+# 🛍️ Product List Application
 
-A modern React application that displays a product catalog using the Fake Store API.
+A modern React application that displays a product catalog using the **Fake Store API**.
 
-## Features
+---
 
-- Display products in a responsive grid layout
-- Loading state management
-- Error handling
-- Custom data fetching hook
-- Responsive design with Tailwind CSS
-- Modern UI with hover effects and transitions
+## 🔗 Live Demo
+[👉 View Project on Netlify](https://mernstack-assignment-5.netlify.app/)
 
-## Tech Stack
+---
 
-- React 19.1.1
-- Vite 7.1.7
-- Tailwind CSS 4.1.16
-- ESLint for code quality
+## ✨ Features
 
-## Project Structure
+- 🧱 Display products in a **responsive grid layout**
+- ⚡ **Loading state** management
+- ❌ **Error handling** for failed API requests
+- 🔄 **Custom data fetching hook**
+- 📱 Fully **responsive design** with Tailwind CSS
+- 🎨 **Modern UI** with smooth hover effects and transitions
+
+---
+
+## 🧰 Tech Stack
+
+- ⚛️ **React 18.x**
+- ⚡ **Vite 5.x**
+- 🎨 **Tailwind CSS 3.x**
+- 🧹 **ESLint** for code quality and consistency
+
+---
+
+## 📁 Project Structure
 
 ```
 My_App/
-├── Components/           # React components
-│   ├── Hero_Section.jsx
-│   ├── Loading.jsx
-│   ├── Navbar.jsx
-│   └── Products.jsx
-├── CustomeHooks/        # Custom React hooks
-│   └── useFetch.jsx     # Custom hook for data fetching
-├── src/                 # Source files
-│   ├── App.jsx          # Main application component
-│   ├── main.jsx         # Application entry point
-│   └── assets/          # Static assets
-├── public/              # Public assets
-└── index.html           # HTML entry point
+├── Components/ # React components
+│ ├── Hero_Section.jsx
+│ ├── Loading.jsx
+│ ├── Navbar.jsx
+│ └── Products.jsx
+├── CustomHooks/ # Custom React hooks
+│ └── useFetch.jsx # Custom hook for data fetching
+├── src/ # Source files
+│ ├── App.jsx # Main application component
+│ ├── main.jsx # Application entry point
+│ └── assets/ # Static assets (images, icons, etc.)
+├── public/ # Public assets
+└── index.html # HTML entry point
 ```
 
-## Getting Started
 
-### Prerequisites
+---
 
-- Node.js (Latest LTS version recommended)
-- npm or yarn
+## ⚙️ Getting Started
 
-### Installation
+### 🔑 Prerequisites
+- **Node.js** (Latest LTS version recommended)
+- **npm** or **yarn**
 
-1. Clone the repository:
+### 🚀 Installation
+
+1. **Clone the repository**
 ```bash
-git clone https://github.com/Sharmavicky/React_Project.git
-```
+$ git clone https://github.com/Sharmavicky/React_Project.git
 
-2. Navigate to the project directory:
-```bash
-cd My_App
-```
+2. Navigate to the project directory
 
-3. Install dependencies:
-```bash
-npm install
-```
+$ cd My_App
 
-### Development
+3. Install dependencies
 
-To start the development server:
+$ npm install
 
-```bash
-npm run dev
-```
+🧩 Development
 
-### Building for Production
+Start the development server:
+
+$ npm run dev
+
+🏗️ Building for Production
 
 To create a production build:
 
-```bash
-npm run build
+$ npm run build
+
+
+Preview the production build:
+
+$ npm run preview
 ```
 
-To preview the production build:
+💡 Features in Detail
 
-```bash
-npm run preview
-```
+🛒 Products Component
 
-## Features in Detail
+Displays products in a clean, responsive grid
+Handles loading and error states gracefully
+Shows product images, titles, and prices
+Includes hover effects for better interactivity
 
-### Products Component
-- Displays products in a responsive grid
-- Handles loading and error states
-- Shows product images, titles, and prices
-- Implements hover effects for better user interaction
+🔄 Custom Hook: useFetch
 
-### Custom Hook: useFetch
-- Manages API calls with proper state management
-- Handles loading states
-- Provides error handling
-- Returns data in a structured format
+Manages API calls with state management
+Handles loading and error conditions
+Returns data in a clean, reusable format
 
-### Styling
-- Fully responsive design using Tailwind CSS
-- Mobile-first approach
-- Smooth transitions and hover effects
-- Clean and modern UI
+🎨 Styling
 
-## API Integration
+Fully responsive design with Tailwind CSS
+Mobile-first layout approach
+Smooth transitions and hover effects
+Clean and modern UI design
 
-The application uses the [Fake Store API](https://fakestoreapi.com/) to fetch product data.
+🌐 API Integration
 
-## Code Quality
+This application uses the Fake Store API to fetch product data dynamically.
 
-- ESLint configuration for code quality
-- React best practices and modern patterns
-- Custom hooks for reusable logic
-- Proper error handling and loading states
+🧠 Code Quality
 
-## License
-
-MIT License
-
-## Author
-
-Vicky Sharma
+✨ ESLint configured for consistent code style
+🧩 Custom hooks for reusable logic
+💥 Error handling and proper state management
+✅ Follows React best practices
