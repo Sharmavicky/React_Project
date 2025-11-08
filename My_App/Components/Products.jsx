@@ -15,7 +15,7 @@ function Products() {
             {data && data.map((item) => (
                 <div
                     key={item.id}
-                    className="border rounded-lg p-4 shadow hover:shadow-lg transition cursor-pointer scale-105"
+                    className="border rounded-lg p-4 shadow hover:shadow-lg hover:scale-105 transition cursor-pointer"
                 >
                     <img
                         src={item.image}
