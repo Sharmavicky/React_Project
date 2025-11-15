@@ -5,7 +5,7 @@ A modern React application that displays a product catalog using the **Fake Stor
 ---
 
 ## 🔗 Live Demo
-[👉 View Project on Netlify](https://mernstack-assignment-5.netlify.app/)
+[👉 View Project on Netlify](https://mernstack-assingment-5.netlify.app/)
 
 ---
 
